@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 from PySide import QtCore
 import sys, os
 sys.path.append("/usr/lib/freecad/lib")
