@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <world name="default">
+    <include>
+      <uri>model://sun</uri>
+    </include>
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+    <include>
+      <name>00140000</name>
+      <uri>model://step_test/00140000</uri>
+      <static>true</static>
+      <pose>0 0 0 0 0 0</pose>
+    </include>
+    <include>
+      <name>virtual_camera</name>
+      <uri>model://virtual_camera</uri>
+      <static>true</static>
+      <pose>0 0 0 0 0 0</pose>
+    </include>
+  </world>
+</sdf>
