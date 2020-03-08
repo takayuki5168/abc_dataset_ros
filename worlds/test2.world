@@ -1,0 +1,77 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <world name="default">
+    <include>
+      <uri>model://sun</uri>
+    </include>
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+    <include>
+      <name>00140000</name>
+      <uri>model://step_test/00140000</uri>
+      <static>true</static>
+      <pose>0 0 0 0 0 0</pose>
+    </include>
+    <include>
+      <name>00140001</name>
+      <uri>model://step_test/00140001</uri>
+      <static>true</static>
+      <pose>0.5 0 0 0 0 0</pose>
+    </include>
+    <include>
+      <name>00140002</name>
+      <uri>model://step_test/00140002</uri>
+      <static>true</static>
+      <pose>0 0.5 0 0 0 0</pose>
+    </include>
+    <include>
+      <name>00140003</name>
+      <uri>model://step_test/00140003</uri>
+      <static>true</static>
+      <pose>0.2 0 0 0 0 0</pose>
+    </include>
+    <include>
+      <name>00140004</name>
+      <uri>model://step_test/00140004</uri>
+      <static>true</static>
+      <pose>-0.2 0 0 0 0 0</pose>
+    </include>
+    <include>
+      <name>00140005</name>
+      <uri>model://step_test/00140005</uri>
+      <static>true</static>
+      <pose>0 0.2 0 0 0 0</pose>
+    </include>
+    <include>
+      <name>00140006</name>
+      <uri>model://step_test/00140006</uri>
+      <static>true</static>
+      <pose>0.2 0.2 0 0 0 0</pose>
+    </include>
+    <include>
+      <name>00140007</name>
+      <uri>model://step_test/00140007</uri>
+      <static>true</static>
+      <pose>0.2 0.5 0 0 0 0</pose>
+    </include>
+    <include>
+      <name>00140008</name>
+      <uri>model://step_test/00140008</uri>
+      <static>true</static>
+      <pose>0.5 0.5 0 0 0 0</pose>
+    </include>
+    <include>
+      <name>00140009</name>
+      <uri>model://step_test/00140009</uri>
+      <static>true</static>
+      <pose>0.3 0.3 0 0 0 0</pose>
+    </include>
+    <include>
+      <name>virtual_camera</name>
+      <uri>model://virtual_camera</uri>
+      <static>true</static>
+      <pose>0 0 0 0 0 0</pose>
+    </include>
+  </world>
+</sdf>
