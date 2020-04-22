@@ -1,0 +1,3 @@
+[submodule "external/step-to-dae"]
+	path = external/step-to-dae
+	url = https://github.com/fedebarabas/step-to-dae

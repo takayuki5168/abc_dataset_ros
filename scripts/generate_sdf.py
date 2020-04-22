@@ -60,6 +60,12 @@ for i in range(len(dirs)):
             <scale>0.001 0.001 0.001</scale>\n\
           </mesh>\n\
         </geometry>\n\
+        <material>\n\
+          <script>\n\
+            <uri>model:///materials/metal1.material</uri>\n\
+            <name>Metal1</name>\n\
+          </script>\n\
+        </material>\n\
       </visual>\n\
     </link>\n\
   </model>\n\

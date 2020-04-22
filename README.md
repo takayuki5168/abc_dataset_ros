@@ -1,11 +1,10 @@
 ABC Dataset ROS
 ===============
 ## Description
-ROS package to use ABC dataset (A Big CAD Model Dataset)<cite>[hoge][1]</cite> in ROS.
-
-![abc_gazebo](https://github.com/takayuki5168/abc_dataset_ros/blob/master/images/abc_gazebo.png)
+ROS package to use ABC dataset (A Big CAD Model Dataset)<cite>[1]</cite> in ROS.
 
 ## Demonstrations
+![abc_gazebo](https://github.com/takayuki5168/abc_dataset_ros/blob/master/images/abc_gazebo.png)
 
 ## Requirement
 - FreeCAD
